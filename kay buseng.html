@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5f5f7">
+<title>For Rieann — George</title>
+<style>
+:root{--bg:#f5f5f7;--paper:#fff;--ink:#1d1d1f;--muted:#6e6e73;--line:#d2d2d7;--accent:#a12d4e;--accent-soft:#f8e9ee;--max:780px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;line-height:1.72;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.topbar{position:sticky;top:0;z-index:5;background:rgba(245,245,247,.86);backdrop-filter:blur(18px);border-bottom:1px solid rgba(210,210,215,.7)}
+.nav{max-width:1050px;margin:auto;padding:12px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{font-size:.88rem;font-weight:650;letter-spacing:-.02em}
+.navlinks{display:flex;gap:20px;flex-wrap:wrap}
+.navlinks a{font-size:.78rem;color:var(--muted);text-decoration:none;transition:color .2s}
+.navlinks a:hover{color:var(--accent)}
+.hero{min-height:76vh;display:flex;align-items:center;justify-content:center;padding:100px 24px 88px;text-align:center}
+.hero-inner{max-width:780px}
+.eyebrow{text-transform:uppercase;letter-spacing:.15em;font-size:.72rem;font-weight:650;color:var(--accent)}
+h1{font-size:clamp(3.3rem,9vw,6.8rem);letter-spacing:-.075em;line-height:.98;margin:22px 0 20px;font-weight:700}
+.hero p{font-size:clamp(1.05rem,2.5vw,1.35rem);color:var(--muted);max-width:620px;margin:0 auto 30px;letter-spacing:-.025em}
+.button{display:inline-flex;align-items:center;justify-content:center;padding:12px 19px;border-radius:999px;border:1px solid var(--ink);background:var(--ink);color:#fff;text-decoration:none;font-size:.9rem;font-weight:600;cursor:pointer;transition:transform .2s,background .2s}
+.button:hover{transform:translateY(-2px);background:#39393d}
+.button.secondary{background:transparent;color:var(--ink);border-color:var(--line);margin-left:8px}
+main{padding:0 20px 90px}
+section{max-width:var(--max);margin:0 auto;padding:48px 0;scroll-margin-top:72px}
+.panel{background:var(--paper);border:1px solid #e4e4e7;border-radius:26px;padding:clamp(25px,6vw,52px);box-shadow:0 12px 36px rgba(29,29,31,.035)}
+.section-label{font-size:.73rem;text-transform:uppercase;letter-spacing:.13em;color:var(--accent);font-weight:700;margin-bottom:14px}
+h2{font-size:clamp(1.9rem,5vw,3.1rem);letter-spacing:-.055em;line-height:1.08;margin:0 0 23px}
+h3{font-size:1.08rem;letter-spacing:-.025em;margin:0 0 8px}
+p{margin:0 0 17px}
+p:last-child{margin-bottom:0}
+.muted{color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.mini{padding:24px;border:1px solid #e0e0e4;background:rgba(255,255,255,.75);border-radius:20px;transition:transform .22s,border-color .22s}
+.mini:hover{transform:translateY(-3px);border-color:#c9a0ad}
+.mini .num{font-size:.75rem;color:var(--accent);font-weight:700;letter-spacing:.1em;margin-bottom:14px}
+blockquote{border-left:3px solid var(--accent);padding:4px 0 4px 19px;margin:26px 0;color:#424248;font-size:1.12rem}
+details{border-top:1px solid var(--line);padding:17px 0}
+details:last-child{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font-weight:650;list-style:none;display:flex;justify-content:space-between;gap:15px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";color:var(--accent);font-size:1.25rem;line-height:1}
+details[open] summary:after{content:"−"}
+.detail-body{padding-top:13px;color:var(--muted)}
+.reveal{display:none;margin-top:20px;padding:24px;background:var(--accent-soft);border-radius:18px;border:1px solid #efccd7;animation:appear .35s ease both}
+.reveal.show{display:block}
+@keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.fadein{opacity:0;transform:translateY(12px);transition:opacity .65s ease,transform .65s ease}
+.fadein.visible{opacity:1;transform:translateY(0)}
+footer{text-align:center;padding:34px 20px 52px;color:var(--muted);font-size:.83rem}
+.small-note{font-size:.86rem;color:var(--muted)}
+@media(max-width:620px){.nav{align-items:flex-start;flex-direction:column;gap:7px}.navlinks{gap:14px}.hero{min-height:70vh;padding-top:75px}.cards{grid-template-columns:1fr}.button.secondary{margin:10px 0 0}.panel{border-radius:20px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.fadein{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <nav class="nav" aria-label="Main navigation">
+    <div class="brand">G. / R.</div>
+    <div class="navlinks"><a href="#letter">The letter</a><a href="#what-i-mean">What I mean</a><a href="#trying-again">Trying again</a><a href="#one-more-thing">One more thing</a></div>
+  </nav>
+</div>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">A note from George</div>
+    <h1>For Rieann.</h1>
+    <p>Not a grand speech. Just a few things I wanted to say honestly, without asking you to rush your feelings.</p>
+    <a class="button" href="#letter">Read the letter</a>
+    <a class="button secondary" href="#trying-again">About us</a>
+  </div>
+</header>
+<main>
+<section id="letter" class="fadein">
+  <div class="panel">
+    <div class="section-label">01 — The letter</div>
+    <h2>Hey, Rieann.</h2>
+    <p>I made this because I wanted to say a few things properly. Not because I think a website can fix everything, and not because I expect you to feel a certain way after reading it.</p>
+    <p>I still love you. I still miss you. You cross my mind in normal, everyday moments—when something funny happens and I think of telling you, or when I wonder how your day has been. I miss sharing those little things with you.</p>
+    <p>But I also know that missing you doesn't automatically mean we should get back together. What happened between us matters. The good memories matter, and so do the things that went wrong. I don't want to skip over either one just because I want another chance.</p>
+    <p>I appreciate you as your own person: your thoughts, your plans, the things that make you laugh, and the things that matter to you even when they have nothing to do with me. You don't have to be in a good mood all the time or make everything easy for me. You get to have your own space and your own feelings.</p>
+    <p>I'm courting you again because I still see something worth trying for. I'm not asking us to go back to exactly how things used to be. If we ever try again, I want us to do it with better communication, more understanding, and a clearer idea of what we both need.</p>
+    <p>I know words are easy to write. Trust takes longer. I don't expect you to believe that everything is different just because I say so. I'd rather show you through small, consistent choices—and let you decide what you see.</p>
+    <p>I miss you, I cherish what we've shared, and I care about what happens to you. I want to be someone who adds care and steadiness to your life, not someone who makes you feel pressured to choose.</p>
+    <p>Thank you for reading this. You don't owe me an answer. I just wanted you to know where my heart is, honestly.</p>
+    <p><strong>— George</strong></p>
+  </div>
+</section>
+<section id="what-i-mean" class="fadein">
+  <div class="section-label">02 — The part that matters</div>
+  <h2>What I mean when I say I care.</h2>
+  <div class="cards">
+    <article class="mini"><div class="num">01 / ATTENTION</div><h3>I want to listen better.</h3><p class="muted">Not just wait for my turn to talk. I want to understand what you mean and what matters to you.</p></article>
+    <article class="mini"><div class="num">02 / RESPECT</div><h3>Your space is still yours.</h3><p class="muted">I can miss you without expecting instant replies or making you feel guilty for having your own life.</p></article>
+    <article class="mini"><div class="num">03 / ACCOUNTABILITY</div><h3>I'll own my part.</h3><p class="muted">If I'm wrong, I want to acknowledge it, apologize properly, and work on not repeating it.</p></article>
+    <article class="mini"><div class="num">04 / CARE</div><h3>I want you to feel safe.</h3><p class="muted">That means respecting your boundaries and never using something personal you've shared against you.</p></article>
+  </div>
+</section>
+<section id="trying-again" class="fadein">
+  <div class="panel">
+    <div class="section-label">03 — No rewriting history</div>
+    <h2>Trying again should mean doing things better.</h2>
+    <p>We were together, and then we broke up. I can't pretend that part didn't happen. If I hurt you or let you down, I want to understand it instead of making excuses. I know good intentions don't erase the effect of our actions.</p>
+    <p>I'm not asking you to forget the past, trust me immediately, or give me a yes before you're ready. I want the chance to court you sincerely and let my behavior show whether I can be more thoughtful and consistent.</p>
+    <blockquote>I'd rather earn your trust slowly than ask you to believe a promise quickly.</blockquote>
+    <p>You can take your time. You can be unsure. You can tell me what you need, and you can make the choice that's right for you. I want your answer to be honest, not something you feel pushed into giving.</p>
+  </div>
+</section>
+<section class="fadein">
+  <div class="section-label">04 — A few things I want to keep learning</div>
+  <h2>The small stuff counts.</h2>
+  <details><summary>Remember the little things.</summary><div class="detail-body">Pay attention when you tell me something matters to you, and don't assume that because I've heard it once, I've understood it completely.</div></details>
+  <details><summary>Be there without taking over.</summary><div class="detail-body">Ask what kind of support you want instead of assuming I need to solve everything. Sometimes listening is enough.</div></details>
+  <details><summary>Talk when things get uncomfortable.</summary><div class="detail-body">Try to communicate instead of letting pride, silence, or assumptions make a difficult moment worse.</div></details>
+  <details><summary>Keep my words connected to my actions.</summary><div class="detail-body">Don't make big promises just to sound convincing. Show care in ordinary, repeatable ways.</div></details>
+</section>
+<section id="one-more-thing" class="fadein">
+  <div class="panel">
+    <div class="section-label">05 — Before you go</div>
+    <h2>One more thing, just for you.</h2>
+    <p>I know this isn't a perfect message, and I don't need it to be. I just wanted it to be honest.</p>
+    <p>You're someone I still care about deeply. I miss you. I hope good things happen for you, whether or not I'm the person beside you when they do. And if you decide to let me keep courting you, I want to make that choice feel respected—not rushed.</p>
+    <button class="button" id="revealBtn" type="button">Open the last note</button>
+    <div class="reveal" id="revealNote" aria-live="polite">
+      <p><strong>Rieann, I hope this made you smile a little.</strong></p>
+      <p>And if you're blushing right now, I'm not going to pretend I wouldn't be happy about that. — George</p>
+    </div>
+  </div>
+</section>
+</main>
+<footer>
+  <p>Made by George, for Rieann.</p>
+  <p class="small-note">A personal note, with no pressure attached.</p>
+</footer>
+<script>
+const revealBtn = document.getElementById('revealBtn');
+const revealNote = document.getElementById('revealNote');
+revealBtn.addEventListener('click', () => {
+  const open = revealNote.classList.toggle('show');
+  revealBtn.textContent = open ? 'Close the last note' : 'Open the last note';
+  if (open) revealNote.scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest'});
+});
+const observer = ('IntersectionObserver' in window) ? new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, {threshold: 0.08}) : null;
+document.querySelectorAll('.fadein').forEach(el => {
+  if (observer) observer.observe(el); else el.classList.add('visible');
+});
+</script>
+</body>
+</html>
